@@ -1,69 +1,103 @@
 ﻿# W2:[CH55X平台](https://github.com/OS-Q/W2) 
 
-CH55X低成本USB芯级平台
-
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-### Arduino平台：[W4](https://github.com/OS-Q/W4) 
+WCH CH55X低成本USB芯片平台
 
-### STM8/32平台：[W3](https://github.com/OS-Q/W3)
+#### 归属控制节点：[M1](https://github.com/OS-Q/M1)
 
-### N76E003平台：[W1](https://github.com/OS-Q/W1)
-
-
-#### 低成本节点：[M1](https://github.com/OS-Q/M1)
-
-#### OS-Q系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
 ---
 
-## [描述](https://github.com/OS-Q/W2/wiki) 
+## [平台描述](https://github.com/OS-Q/W2/wiki) 
 
-基于CH55X单片机的芯级平台
+CH55X低成本USB芯级平台，拥有稳定可靠的性能，极低的价格和USB功能，支持keil开发
 
-#### common
+### [共用资源](https://github.com/OS-Q/W2/wiki/src) 
 
+#### software
 
-
----
-
-## 硬件组成
-
-基于NCH55X板级设备
-
-#### [D8:板级设备](https://github.com/OS-Q/D8)
-
-WS2812彩灯控制
-
-#### [D9:板级设备](https://github.com/OS-Q/D9)
-
-步进电机驱动
-
-#### [D10:板级设备](https://github.com/OS-Q/D10)
-
-ST7735显示驱动
-
-#### [D11:板级设备](https://github.com/OS-Q/D11)
-
-多路开关切换
-
-#### [D12:板级设备](https://github.com/OS-Q/D12)
-
-集成红外收发
-
-#### [D13:板级设备](https://github.com/OS-Q/D13)
-
-板载433MHz无线
-
-#### [D14:板级设备](https://github.com/OS-Q/D14)
-
-集成RS485通信
+##### keil工程文件
 
 
 
 ---
 
-###  锻造最美之器
+边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
 
-###  www.OS-Q.com   |   qitas@qitas.cn
+## [包含设备](https://github.com/OS-Q/W2/wiki/index) 
 
+#### D8:[显示设备](https://github.com/OS-Q/D8)
+
+通过USB控制显示呈现，包括LCD和LED
+
+#### D9:[转换设备](https://github.com/OS-Q/D9)
+
+USB转有线通信，包括RS485，IIC，SPI等
+
+#### D10:[存储设备](https://github.com/OS-Q/D10)
+
+模拟存储介质
+
+#### D11:[控制设备](https://github.com/OS-Q/D11)
+
+步进电机驱动和IO控制
+
+#### D12:[键盘设备](https://github.com/OS-Q/D12)
+
+模拟键盘输入
+
+#### D13:[鼠标设备](https://github.com/OS-Q/D13)
+
+模拟鼠标输入
+
+#### D14:[安全设备](https://github.com/OS-Q/D14)
+
+实现USB加解密
+
+
+
+#### D1:[ADC采集设备](https://github.com/OS-Q/D1)
+
+板载多通道12bit ADC信号采集
+
+#### D2:[板载感知设备](https://github.com/OS-Q/D2)
+
+板载集成传感器
+
+#### D3:[LCD显示设备](https://github.com/OS-Q/D3)
+
+集成LCD显示设备和WS2812
+
+#### D4:[板级设备](https://github.com/OS-Q/D4)
+
+集成电机控制芯片
+
+#### D5:[板级设备](https://github.com/OS-Q/D5)
+
+集成RS485通信芯片
+
+#### D6:[板级设备](https://github.com/OS-Q/D6)
+
+板载433MHz无线通信
+
+#### D7:[板级设备](https://github.com/OS-Q/D7)
+
+板载红外收发通信
+
+---
+
+## [同级平台](https://github.com/OS-Q/W2/wiki/index)
+
+#### W1:[N76E平台](https://github.com/OS-Q/W1)
+
+#### W3:[STM8平台](https://github.com/OS-Q/W3)
+
+#### W4:[CC25平台](https://github.com/OS-Q/W4)
+
+---
+
+###  [Q redefined the scope of operation system](http://www.OS-Q.com)
+###  qitas@qitas.cn
+#### 2018-11-28

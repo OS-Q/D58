@@ -12,15 +12,17 @@ WCH CH55X低成本USB芯片平台
 
 ## [平台描述](https://github.com/OS-Q/W2/wiki) 
 
-CH55X低成本USB芯级平台，拥有稳定可靠的性能，极低的价格和USB功能，支持keil开发
+CH55X低成本USB平台，拥有稳定可靠的性能，极低的价格和USB功能，支持keil开发
 
-### [共用资源](https://github.com/OS-Q/W2/wiki/src) 
+## [共用资源](https://github.com/OS-Q/W2/wiki/src) 
 
-#### software
+### software
 
-##### keil工程文件
+#### 工程文件
 
+### hardware
 
+#### 硬件封装
 
 ---
 
@@ -30,11 +32,11 @@ CH55X低成本USB芯级平台，拥有稳定可靠的性能，极低的价格和
 
 #### D8:[显示设备](https://github.com/OS-Q/D8)
 
-通过USB控制显示呈现，包括LCD和LED
+通过USB控制显示呈现
 
 #### D9:[转换设备](https://github.com/OS-Q/D9)
 
-USB转有线通信，包括RS485，IIC，SPI等
+USB转其他通信方式
 
 #### D10:[存储设备](https://github.com/OS-Q/D10)
 
@@ -42,7 +44,7 @@ USB转有线通信，包括RS485，IIC，SPI等
 
 #### D11:[控制设备](https://github.com/OS-Q/D11)
 
-步进电机驱动和IO控制
+电机驱动和IO控制
 
 #### D12:[键盘设备](https://github.com/OS-Q/D12)
 
@@ -56,35 +58,6 @@ USB转有线通信，包括RS485，IIC，SPI等
 
 实现USB加解密
 
-
-
-#### D1:[ADC采集设备](https://github.com/OS-Q/D1)
-
-板载多通道12bit ADC信号采集
-
-#### D2:[板载感知设备](https://github.com/OS-Q/D2)
-
-板载集成传感器
-
-#### D3:[LCD显示设备](https://github.com/OS-Q/D3)
-
-集成LCD显示设备和WS2812
-
-#### D4:[板级设备](https://github.com/OS-Q/D4)
-
-集成电机控制芯片
-
-#### D5:[板级设备](https://github.com/OS-Q/D5)
-
-集成RS485通信芯片
-
-#### D6:[板级设备](https://github.com/OS-Q/D6)
-
-板载433MHz无线通信
-
-#### D7:[板级设备](https://github.com/OS-Q/D7)
-
-板载红外收发通信
 
 ---
 

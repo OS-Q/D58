@@ -1,76 +1,60 @@
-﻿# W2:[CH55X平台](https://github.com/OS-Q/W2) 
+﻿# D51: [USB设备](https://github.com/OS-Q/D51) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-WCH CH55X低成本USB芯片平台
-
-#### 归属控制节点：[M1](https://github.com/OS-Q/M1)
+#### 归属文件输出：[W8](https://github.com/OS-Q/W8)
 
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
----
+## [设备描述](https://github.com/OS-Q/D51/wiki) 
 
-## [平台描述](https://github.com/OS-Q/W2/wiki) 
 
-CH55X低成本USB平台，拥有稳定可靠的性能，极低的价格和USB功能，支持keil开发
+### [包含资源](OS-Q/) 
 
-## [共用资源](https://github.com/OS-Q/W2/wiki/src) 
+#### [资料手册](docs/)
 
-### software
 
-#### 工程文件
+#### [工程源码](project/)
 
-### hardware
-
-#### 硬件封装
-
----
-
-边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
-
-## [包含设备](https://github.com/OS-Q/W2/wiki/index) 
-
-#### D8:[显示设备](https://github.com/OS-Q/D8)
-
-通过USB控制显示呈现
-
-#### D9:[转换设备](https://github.com/OS-Q/D9)
-
-USB转其他通信方式
-
-#### D10:[存储设备](https://github.com/OS-Q/D10)
-
-模拟存储介质
-
-#### D11:[控制设备](https://github.com/OS-Q/D11)
-
-电机驱动和IO控制
-
-#### D12:[键盘设备](https://github.com/OS-Q/D12)
-
-模拟键盘输入
-
-#### D13:[鼠标设备](https://github.com/OS-Q/D13)
-
-模拟鼠标输入
-
-#### D14:[安全设备](https://github.com/OS-Q/D14)
-
-实现USB加解密
 
 
 ---
 
-## [同级平台](https://github.com/OS-Q/W2/wiki/index)
+- 边缘设备统一命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
 
-#### W1:[N76E平台](https://github.com/OS-Q/W1)
+## [同级设备](https://github.com/OS-Q/W8/wiki) 
 
-#### W3:[STM8平台](https://github.com/OS-Q/W3)
+#### D50：[周期驱动](https://github.com/OS-Q/D50)
 
-#### W4:[CC25平台](https://github.com/OS-Q/W4)
+通过定时驱动文件实现周期对外数据输出
+
+#### D51：[USB设备](https://github.com/OS-Q/D51)
+
+通过模拟键鼠实现上层系统配置
+
+#### D52：[音频播放](https://github.com/OS-Q/D52)
+
+音频输出设备
+
+#### D53：[3D打印流](https://github.com/OS-Q/D53)
+
+通过时序表驱动完成驱动加工
+
+#### D54：[NULL](https://github.com/OS-Q/D54)
+
+
+
+#### D55：[NULL](https://github.com/OS-Q/D55)
+
+
+
+#### D56：[NULL](https://github.com/OS-Q/D56)
+
+
+
 
 ---
 
-###  [Q redefined the scope of operation system](http://www.OS-Q.com)
-###  qitas@qitas.cn
-#### 2018-11-28
+####  © qitas@qitas.cn
+###  [OS-Q redefined Operation System](http://www.OS-Q.com)
+####  @ 2018-12-16

@@ -2,7 +2,7 @@
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 归属文件输出：[W8](https://github.com/OS-Q/W8)
+#### 归属其他输出：[W9](https://github.com/OS-Q/W9)
 
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 

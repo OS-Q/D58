@@ -1,4 +1,4 @@
-﻿# D51: [USB设备](https://github.com/OS-Q/D51) 
+﻿# D58: [模拟键盘](https://github.com/OS-Q/D58) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
@@ -6,17 +6,19 @@
 
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
-## [设备描述](https://github.com/OS-Q/D51/wiki) 
+## [设备描述](https://github.com/OS-Q/D58/wiki) 
 
+CH55X芯片模拟键盘设备，用于自动化输出控制信息
 
-### [包含资源](OS-Q/) 
+## [包含资源](OS-Q/) 
 
 #### [资料手册](docs/)
 
+包括芯片手册
 
 #### [工程源码](project/)
 
-
+基于keil工程
 
 ---
 
@@ -24,32 +26,31 @@
 
 ## [同级设备](https://github.com/OS-Q/W8/wiki) 
 
-#### D50：[周期驱动](https://github.com/OS-Q/D50)
+#### D57：[语音输出](https://github.com/OS-Q/D57)
 
-通过定时驱动文件实现周期对外数据输出
+用于输出语音信息
 
-#### D51：[USB设备](https://github.com/OS-Q/D51)
+#### -> D58：[模拟键盘](https://github.com/OS-Q/D58)
 
-通过模拟键鼠实现上层系统配置
+用于模拟键盘外设
 
-#### D52：[音频播放](https://github.com/OS-Q/D52)
+#### D59：[模拟鼠标](https://github.com/OS-Q/D59)
 
-音频输出设备
+用于模拟鼠标外设
 
-#### D53：[3D打印流](https://github.com/OS-Q/D53)
-
-通过时序表驱动完成驱动加工
-
-#### D54：[NULL](https://github.com/OS-Q/D54)
+#### D60：[NULL](https://github.com/OS-Q/D60)
 
 
 
-#### D55：[NULL](https://github.com/OS-Q/D55)
+#### D61：[NULL](https://github.com/OS-Q/D61)
 
 
 
-#### D56：[NULL](https://github.com/OS-Q/D56)
+#### D62：[NULL](https://github.com/OS-Q/D62)
 
+
+
+#### D63：[NULL](https://github.com/OS-Q/D63)
 
 
 
